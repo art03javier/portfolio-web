@@ -1,5 +1,5 @@
 /* Global Styles */
-body {
+  body {
     height: 100%;
     margin: 0;
     font-family: "Oswald", sans-serif;
@@ -31,7 +31,7 @@ body {
   }
   
   /* Home Section Styles */
-#home {
+  #home {
     background-image: url('images/backgrounds/mac_desk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,8 +97,8 @@ body {
   }
   
   
-/* About Section Styles */
-.aboutBackImage {
+  /* About Section Styles */
+  .aboutBackImage {
     background: url('images/backgrounds/mac_background.jpg') no-repeat center/cover;
 }
   
@@ -116,4 +116,13 @@ body {
   
   #aboutContent {
     font-size: 1.20em;
+  }
+
+  /* Skills Section Styles */
+  .skillsLayout img {
+    max-width: 23%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the icons horizontally */
+    margin-bottom: 5px; /* Adjust the margin as needed for vertical spacing */
   }
