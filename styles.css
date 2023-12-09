@@ -1,0 +1,32 @@
+/* Global Styles */
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .navbar-expand-md .navbar-collapse {
+    background-color: #343a40; /* Set your desired background color */
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
