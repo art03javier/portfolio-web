@@ -2,59 +2,122 @@
 <html lang="en">
 
 <head>
-  <!-- Meta tags for character set and viewport -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 
 
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
 
-        <!-- Navbar Toggler Button -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
-          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <!-- Navbar Toggler Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- Navbar Content -->
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav me-auto">
-            <!-- Navigation Links -->
-            <li class="nav-item">
-              <a class="nav-link active mx-1" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-1" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-1" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-1" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-1" href="#contact">Contact</a>
-            </li>
-          </ul>
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto">
+                        <!-- Navigation Links -->
+                        <li class="nav-item">
+                            <a class="nav-link active mx-1" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="#contact">Contact</a>
+                        </li>
+                    </ul>
 
-          <!-- Brand -->
-          <a class="navbar-brand" id="brand" href="#home" style="font-size: 24px; color: #ff4500;">MY PORTFOLIO</a>
+                    <!-- Brand -->
+                    <a class="navbar-brand" id="brand" href="#home" style="font-size: 24px; color: #ff4500;">MY
+                        PORTFOLIO</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="pt-5 d-flex align-items-center justify-content-center">
+        <div class="container-fluid text-center">
+            <!-- Main Heading -->
+            <h1 id="hName" style="font-size: 56px; color: #ff4500; background: white; display: inline-block;">ARTHUR
+                JAVIER
+            </h1>
+
+            <!-- Subheading and Call to Action -->
+            <h2>Explore My Portfolio</h2>
+            <p id="pColor" style="color: #ff4500; font-size: 36px; background: white; display: inline-block;">Take a
+                tour of
+                my work and get to know me better.</p>
+            <br>
+            <a href="#about" class="btn btn-primary custom-button">About Me</a>
         </div>
-      </div>
-    </nav>
-  </header>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="aboutMeSection">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- About Details -->
+                <div class="col-md-6 col-lg-6 aboutDetails align-self-center text-left mx-auto">
+                    <br>
+                    <h2 id="aboutHeading">About Me</h2>
+                    <br>
+                    <!-- About Content -->
+                    <p id="aboutContent">
+                        *Aspiring Full Stack Developer & Robotics Professional*
+                    </p>
+                    <p id="aboutContent">
+                        Hello! I'm Arthur Javier, a dedicated professional currently immersed in the world of
+                        robotics
+                        as a full-time
+                        technician while pursuing my passion for technology and programming as a part-time Full
+                        Stack
+                        Developer. I'm on
+                        a journey to transition my career into the dynamic realm of software development. My current
+                        role involves
+                        operating and managing cutting-edge machinery like the PBH-110/3100 in collaboration with
+                        KUKA
+                        robots. This
+                        experience has given me a strong technical foundation and problem-solving skills.
+                        Simultaneously, my studies as
+                        a Full Stack Developer have expanded my knowledge in web development, database management,
+                        and software architecture. <br>
+                        Driven by a desire to merge my hands-on experience in robotics with my evolving programming
+                        skills, I am committed to mastering the art of creating seamless, user-friendly applications
+                        and websites. I believe in the power of technology to innovate and solve real-world challenges.
+
+                        Join me on this exciting journey as I navigate through the world of technology, continuously
+                        learning, growing, and crafting solutions that make a difference. <br> Feel free to explore my
+                        portfolio and join me in this captivating tech odyssey! <br><br>
+                    </p>
+                </div>
+                <!-- About Background Image -->
+                <div class="col-md-6 col-lg-6 aboutBackImage"></div>
+            </div>
+        </div>
+    </section>
