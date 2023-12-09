@@ -136,3 +136,53 @@
   .projectsBackground {
     background-color: rgb(111, 195, 111);
   }
+
+  /* Contact Section Styles */
+#contact {
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    padding: 50px 0; /* Adjust padding as needed */
+    box-sizing: border-box;
+    background-color: #ff4400a0;
+  }
+  
+  #contact .row {
+    background-color: #ff4500;
+  }
+  
+  /* Adjust the size of the contact icons */
+  #contact .email-icon,
+  #contact .github-icon,
+  #contact .phone-icon {
+    max-width: 100%; /* Make sure the images don't exceed their container */
+    height: auto;    /* Maintain aspect ratio */
+  }
+  
+  /* Optional: Add some spacing between the icons and text */
+  #contact .contact-info p {
+    margin-top: 10px;
+  }
+  
+  /* Adjust the size of specific icons */
+  #contact .email-icon {
+    max-width: 100px; /* Adjust the size for the email icon */
+  }
+  
+  #contact .github-icon {
+    max-width: 95px; /* Adjust the size for the GitHub icon */
+  }
+  
+  #contact .phone-icon {
+    max-width: 55px; /* Adjust the size for the phone icon */
+  }
+  
+  /* Footer Styles */
+  .footer-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Customize the background color of the footer */
+    color: white; /* Customize the text color of the footer */
+    text-align: center;
+    padding: 15px 0;
+  }
+  
