@@ -15,6 +15,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+    <title>Art - Portfolio</title>
+
+    <!-- Custom Styles -->
+    <style>
+        /* Hide brand on collapse */
+        #brand.hidden-brand {
+            display: none !important;
+        }
+
+        /* Hide footer on collapse */
+        .hidden-footer {
+            display: none;
+        }
+
+        /* Add minimum vertical spacing */
+        .min-vertical-spacing {
+            margin-top: 5px;
+            /* Adjust the value based on your preference */
+        }
+    </style>
 
 </head>
 
@@ -69,7 +92,7 @@
             </h1>
 
             <!-- Subheading and Call to Action -->
-            <h2>Explore My Portfolio</h2>
+            <h2 style="color: yellow; font-size: 36px;">Explore My Portfolio</h2>
             <p id="pColor" style="color: #ff4500; font-size: 36px; background: white; display: inline-block;">Take a
                 tour of
                 my work and get to know me better.</p>
@@ -123,175 +146,212 @@
     </section>
 
     <!-- Skills Section -->
-  <section id="skills" class="sSection">
-    <div class="container">
-      <div class="row align-self-center text-center mx-auto">
-        <!-- Skills Header -->
-        <div class="col-12 sHeader">
-          <br><br><br><br>
-          <h1>SKILLS</h1>
-          <p style="font-size: 20px;">
-            Below, you'll find a showcase of the technologies I've been exploring on my journey as a budding
-            full stack developer. As I continue my studies, I've gained familiarity with some key technologies,
-            and I'm currently around 35% into my full stack development curriculum."
-          </p>
-        </div>
-      </div>
-      <!-- Skills Layout -->
-      <div class="row text-center mx-auto mt-5 skillsLayout">
-        <!-- Skills Icons -->
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/html-icon.png" alt="HTML5 Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/css3.png" alt="CSS3 Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/javascript-icon.png" alt="JavaScript Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/bootstrap-5-logo-icon.png" alt="Bootstrap Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/git-icon.png" alt="Git Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/github-icon.png" alt="GitHub Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/react-js-icon.png" alt="React Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/visual-studio-code-icon.png" alt="Visual Studio Icon">
-        </div>
-        <div class="col-md-6 col-lg-4 p-4">
-          <img src="images/logos/redux-icon.png" alt="Redux Icon">
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-   <!-- Projects Section -->
-   <section id="projects" class="pSection projectsBackground">
-    <div class="container">
-      <div class="row align-self-center text-center mx-auto">
-        <!-- Projects Header -->
-        <div class="col-12 pHeader">
-          <br><br><br><br><br>
-          <h1 style="color: white;">PROJECTS</h1>
-        <p style="font-family: Crimson Text; font-size: 26px; color: white;">I showcase a collection of diverse and impactful
-            web development projects, highlighting my proficiency in building interactive and visually engaging
-            solutions
-            that address real-world challenges. </p>
-        </div>
-        <!-- Projects Layout -->
-        <div class="row mx-auto mt-5 projectsLayout">
-          <!-- Project Cards -->
-          <div class="col-md-6 col-lg-4 p-4">
-            <a href="https://art03javier.github.io/codecademy-project-challenge-9.1/" target="_blank">
-              <img class="img-proj" src="images/projects/Cyber Cafe.png" alt="Cyber Cafe" />
-              <h3 style="color: white;">
-                This project, called Company home page use flexbox styling for layout.</h3>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 p-4">
-            <a href="https://art03javier.github.io/codecademy-project-challenge-9.2/" target="_blank">
-              <img class="img-proj" src="images/projects/Sports Club.png" alt="Sports Club" />
-              <h3 style="color: white;">
-                This project, called Responsive Club Website will dynamically respond as you adjust the size of the
-                screen!</h3>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 p-4">
-            <a href="https://art03javier.github.io/codecademy-project-challenge-solution/" target="_blank">
-              <img class="img-proj" src="images/projects/HTML Tables Cheat Sheet.png" alt="Cheat Sheet" />
-              <h3 style="color: white;">
-                This project, called reference cheat sheet contains HTML tables and applying CSS: Selectors and Visual
-                Rules.
-              </h3>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 p-4">
-            <a href="https://art03javier.github.io/codecademy-project-9/" target="_blank">
-              <img class="img-proj" src="images/projects/Tsunami Coffee.png" alt="Tsunami Coffee" />
-              <h3 style="color: white;">
-                This project, called Tsunami Coffee is another example of responsive web design from Codecademy.
-              </h3>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 p-4">
-            <a href="https://art03javier.github.io/testimonials-grid-section-main/" target="_blank">
-              <img class="img-proj" src="images/projects/Testimonials Grid Section Main.png" alt="Testimonial Grid" />
-              <h3 style="color: white;">
-                This project typically involves designing a section of a webpage where testimonials are displayed in a
-                structured grid and responsive.</h3>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
- <!-- Contact Section -->
- <section id="contact" class="contact-section">
-    <div class="container">
-      <div class="row">
-        <!-- Contact Header -->
-        <div class="col-lg-8 mx-auto text-center">
-          <br><br>,<br>
-          <h2 style="font-family: Oswald, sans-serif; font-size: 2.5rem; color: white;" class="section-heading">Contact
-            Me</h2>
-          <p style="color: white; font-size: 24px;">Feel free to reach out!</p>
-        </div>
-      </div>
-      <!-- Contact Content -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- Introduction -->
-          <p style="color: white; font-size: 22px;">Thank you for visiting my portfolio. If you have any inquiries or
-            just want to say
-            hello, you can reach me through the following:</p>
-          <!-- Contact Information -->
-          <div class="contact-info">
-            <div class="row">
-              <!-- Email -->
-              <div class="col-md-4 text-center">
-                <a href="mailto:art03javier@yahoo.com" style="color: white;">
-                  <br>
-                  <img class="email-icon" src="images/contact-icon/envelope-line-icon.png" alt="Email"
-                    style="color: white;">
-                  <p>Email</p>
-                </a>
-              </div>
-              <!-- GitHub -->
-              <div class="col-md-4 text-center">
-                <a href="https://github.com/art03javier" target="_blank" style="color: white;">
-                  <img class="github-icon" src="images/contact-icon/github-icon.png" alt="GitHub" style="color: white;">
-                  <p>GitHub</p>
-                </a>
-              </div>
-              <!-- Phone -->
-              <div class="col-md-4 text-center">
-                <a href="tel:0466060009" style="color: white;">
-                  <img class="phone-icon" src="images/contact-icon/mobile-icon.png" alt="Phone" style="color: white;">
-                  <p>Phone</p>
-                </a>
-              </div>
+    <section id="skills" class="sSection">
+        <div class="container">
+            <div class="row align-self-center text-center mx-auto">
+                <!-- Skills Header -->
+                <div class="col-12 sHeader">
+                    <br><br><br><br>
+                    <h1>SKILLS</h1>
+                    <p style="font-size: 20px;">
+                        Below, you'll find a showcase of the technologies I've been exploring on my journey as a budding
+                        full stack developer. As I continue my studies, I've gained familiarity with some key
+                        technologies,
+                        and I'm currently around 35% into my full stack development curriculum."
+                    </p>
+                </div>
             </div>
-          </div>
+            <!-- Skills Layout -->
+            <div class="row text-center mx-auto mt-5 skillsLayout">
+                 <!-- Skills Icons sourced from https://uxwing.com/ -->
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/html-icon.png" alt="HTML5 Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/css3.png" alt="CSS3 Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/javascript-icon.png" alt="JavaScript Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/bootstrap-5-logo-icon.png" alt="Bootstrap Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/git-icon.png" alt="Git Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/github-icon.png" alt="GitHub Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/react-js-icon.png" alt="React Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/visual-studio-code-icon.png" alt="Visual Studio Icon">
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <img src="images/logos/redux-icon.png" alt="Redux Icon">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer Section -->
-  <footer id="footer" class="footer-section">
-    <div class="container text-center">
-      <p>&copy; 2023 Arthur Javier. All Rights Reserved.</p>
-    </div>
-  </footer>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="pSection projectsBackground">
+        <div class="container">
+            <div class="row align-self-center text-center mx-auto">
+                <!-- Projects Header -->
+                <div class="col-12 pHeader">
+                    <br><br><br><br><br>
+                    <h1 style="color: white;">PROJECTS</h1>
+                    <p style="font-family: Crimson Text; font-size: 26px; color: white;">I showcase a collection of
+                        diverse and impactful
+                        web development projects, highlighting my proficiency in building interactive and visually
+                        engaging
+                        solutions
+                        that address real-world challenges. </p>
+                </div>
+                <!-- Projects Layout -->
+                <div class="row mx-auto mt-5 projectsLayout">
+                    <!-- Project Cards -->
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <a href="https://art03javier.github.io/codecademy-project-challenge-9.1/" target="_blank">
+                            <img class="img-proj" src="images/projects/Cyber Cafe.png" alt="Cyber Cafe" />
+                            <h3 style="color: white;">
+                                This project, called Company home page use flexbox styling for layout.</h3>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <a href="https://art03javier.github.io/codecademy-project-challenge-9.2/" target="_blank">
+                            <img class="img-proj" src="images/projects/Sports Club.png" alt="Sports Club" />
+                            <h3 style="color: white;">
+                                This project, called Responsive Club Website will dynamically respond as you adjust the
+                                size of the
+                                screen!</h3>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <a href="https://art03javier.github.io/codecademy-project-challenge-solution/" target="_blank">
+                            <img class="img-proj" src="images/projects/HTML Tables Cheat Sheet.png" alt="Cheat Sheet" />
+                            <h3 style="color: white;">
+                                This project, called reference cheat sheet contains HTML tables and applying CSS:
+                                Selectors and Visual
+                                Rules.
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <a href="https://art03javier.github.io/codecademy-project-9/" target="_blank">
+                            <img class="img-proj" src="images/projects/Tsunami Coffee.png" alt="Tsunami Coffee" />
+                            <h3 style="color: white;">
+                                This project, called Tsunami Coffee is another example of responsive web design from
+                                Codecademy.
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <a href="https://art03javier.github.io/testimonials-grid-section-main/" target="_blank">
+                            <img class="img-proj" src="images/projects/Testimonials Grid Section Main.png"
+                                alt="Testimonial Grid" />
+                            <h3 style="color: white;">
+                                This project typically involves designing a section of a webpage where testimonials are
+                                displayed in a
+                                structured grid and responsive.</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Header -->
+                <div class="col-lg-8 mx-auto text-center">
+                    <br><br>,<br>
+                    <h2 style="font-family: Oswald, sans-serif; font-size: 2.5rem; color: white;"
+                        class="section-heading">Contact
+                        Me</h2>
+                    <p style="color: white; font-size: 24px;">Feel free to reach out!</p>
+                </div>
+            </div>
+            <!-- Contact Content -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Introduction -->
+                    <p style="color: white; font-size: 22px;">Thank you for visiting my portfolio. If you have any
+                        inquiries or
+                        just want to say
+                        hello, you can reach me through the following:</p>
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="row">
+                            <!-- Email Icon sourced from https://uxwing.com/ -->
+                            <div class="col-md-4 text-center">
+                                <a href="mailto:art03javier@yahoo.com" style="color: white;">
+                                    <br>
+                                    <img class="email-icon" src="images/contact-icon/envelope-line-icon.png" alt="Email"
+                                        style="color: white;">
+                                    <p>Email</p>
+                                </a>
+                            </div>
+                            <!-- GitHub Icon sourced from https://uxwing.com/-->
+                            <div class="col-md-4 text-center">
+                                <a href="https://github.com/art03javier" target="_blank" style="color: white;">
+                                    <img class="github-icon" src="images/contact-icon/github-icon.png" alt="GitHub"
+                                        style="color: white;">
+                                    <p>GitHub</p>
+                                </a>
+                            </div>
+                            <!-- Phone Icon sourced from https://uxwing.com/-->
+                            <div class="col-md-4 text-center">
+                                <a href="tel:0466060009" style="color: white;">
+                                    <img class="phone-icon" src="images/contact-icon/mobile-icon.png" alt="Phone"
+                                        style="color: white;">
+                                    <p>Phone</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer-section">
+        <div class="container text-center">
+            <p>&copy; 2023 Arthur Javier. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button onclick="topFunction()" id="scrollToTop" title="Scroll to top">Top</button>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Custom Script for Navbar Toggle -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let navbarBrand = document.getElementById("brand");
+            let navbarToggler = document.querySelector(".navbar-toggler");
+            let footer = document.getElementById("footer"); // Replace with the actual ID of your footer
+
+            navbarToggler.addEventListener("click", function () {
+                navbarBrand.classList.toggle("hidden-brand");
+                footer.classList.toggle("hidden-footer");
+            });
+        });
+    </script>
+</body>
+
+</html>
